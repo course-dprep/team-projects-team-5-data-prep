@@ -6,8 +6,8 @@
 > Feel free to delete this text.
 
 
-# Title of your Project
-*Zip Code Wars:Geographic Density and Yelp Ratings analysis across Business Categories*
+# Zip Code Wars:Geographic Density and Yelp Ratings analysis across Business Categories
+
 
 ## Motivation
 
