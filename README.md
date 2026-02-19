@@ -7,7 +7,7 @@
 
 
 # Title of your Project
-*Describe the purpose of this project* 
+*Zip Code Wars:Geographic Density and Yelp Ratings analysis across Business Categories*
 
 ## Motivation
 
