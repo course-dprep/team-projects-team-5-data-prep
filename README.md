@@ -22,7 +22,7 @@ For business owners, the findings can inform location strategy and competitive p
 
   The original data set contains 150346 observations with 14 variables such as States, Postcal Codes (also referred to in this study as ***zip codes***), Review Counts, Categories..etc. You can view the fully rendered HTML table here:
 
-[Click to open the Table for Raw Data Variables]()
+[Click to open the Table for Raw Data Variables](data/Table-for-Raw-Data-Vairables.html)
   
 
 - How many observations are there in the final dataset? 
