@@ -5,9 +5,7 @@
 >  
 > Feel free to delete this text.
 
-
 # Zip Code Wars: Geographic Density and Yelp Ratings analysis across Business Categories
-
 
 ## Motivation
 
@@ -20,6 +18,7 @@ Furthermore, while it is undeniable that consumer behaviors are impacted by revi
 For business owners, the findings can inform location strategy and competitive positioning by clarifying when dense clusters are likely to help or hurt evaluations across categories, supporting better benchmarking, service and pricing decisions, and more targeted expansion or franchising choices.
 
 ### Research Question: 
+
 How does the density of same-category businesses within a ZIP code relate to average Yelp ratings, and does this relationship differ by business industry?
 
 ## Data
@@ -30,12 +29,13 @@ How does the density of same-category businesses within a ZIP code relate to ave
 
 ## Method
 
--Data exploration for this study begins with the selection of relevant columns from the yelp_academic_dataset_business.csv file, namely "state", "postal_code", "city", "review_count", "name", "categories", "stars". The columns needed for analysis are extracted from the initial database, and the data were cleaned by removing observations with missing values. The dataset was then explored using ggplot2 visualizations. Having plotted several graphs for distributions of star ratings, stars versus review count and stars versus business density by ZIP (postal code); the data is reformatted into factor variables where categories will be valuable for the research. Business labels are taken into account to determine the 20 most used business labels, and the businesses are categorized into 5 main industries accordingly. 
+Data exploration for this study begins with the selection of relevant columns from the yelp_academic_dataset_business.csv file, namely "state", "postal_code", "city", "review_count", "name", "categories", "stars". The columns needed for analysis are extracted from the initial database, and the data were cleaned by removing observations with missing values. The dataset was then explored using ggplot2 visualizations. Having plotted several graphs for distributions of star ratings, stars versus review count and stars versus business density by ZIP (postal code); the data is reformatted into factor variables where categories will be valuable for the research. Business labels are taken into account to determine the 20 most used business labels, and the businesses are categorized into 5 main industries accordingly. 
+
 Once the industry classification procedure was completed, the research focused on the density of businesses within a single postal code. After the density of businesses is determined, several plots are drawn again to see how relationships change according to the industry densities by plotting each industry density against star ratings. When it is seen that the resulting figures were visually crowded, remedies are applied such as using smoothing codes together with ggplots. The study will further explore the data by separating business densities across different industries into 3 levels: low density, medium density and high density to see whether relationships will be more prominent across levels.
 The research aims to use Linear Regression with Interaction Terms as the chosen method of analysis after data is explored, so that both the main relationship between the density of businesses within a postal code and Yelp ratings can be examined along with the moderating effect of industry of the business. The predicted model for the study can be seen as such: lm(rating(stars) ~ business_density + business_industry + business_density:business_category)
 
-
 ## Preview of Findings 
+
 - Describe the gist of your findings (save the details for the final paper!)
 - How are the findings/end product of the project deployed?
 - Explain the relevance of these findings/product. 
@@ -56,4 +56,10 @@ The research aims to use Linear Regression with Interaction Terms as the chosen 
 
 This project is set up as part of the Master's course [Data Preparation & Workflow Management](https://dprep.hannesdatta.com/) at the [Department of Marketing](https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/marketing), [Tilburg University](https://www.tilburguniversity.edu/), the Netherlands.
 
-The project is implemented by team 6 members: Aimee Wu, Duru Kurgun, Işıl Kanyılmaz, Gabriella Wong, Liane Gnuyen, Olha Zinyak
+### The project is implemented by team 6 members: 
+- Aimee Wu 
+- Duru Kurgun,
+- Işıl Kanyılmaz
+- Gabriella Wong
+- Liane Gnuyen
+- Olha Zinyak
