@@ -58,7 +58,7 @@ This project is set up as part of the Master's course [Data Preparation & Workfl
 
 ### The project is implemented by team 6 members: 
 - Aimee Wu 
-- Duru Kurgun,
+- Duru Kurgun
 - Işıl Kanyılmaz
 - Gabriella Wong
 - Liane Gnuyen
