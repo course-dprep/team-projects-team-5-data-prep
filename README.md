@@ -19,7 +19,7 @@ Furthermore, while it is undeniable that consumer behaviors are impacted by revi
 
 For business owners, the findings can inform location strategy and competitive positioning by clarifying when dense clusters are likely to help or hurt evaluations across categories, supporting better benchmarking, service and pricing decisions, and more targeted expansion or franchising choices.
 
-###Research Question: 
+### Research Question: 
 How does the density of same-category businesses within a ZIP code relate to average Yelp ratings, and does this relationship differ by business industry?
 
 ## Data
