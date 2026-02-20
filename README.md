@@ -56,7 +56,7 @@ The research aims to use Linear Regression with Interaction Terms as the chosen 
 
 This project is set up as part of the Master's course [Data Preparation & Workflow Management](https://dprep.hannesdatta.com/) at the [Department of Marketing](https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/marketing), [Tilburg University](https://www.tilburguniversity.edu/), the Netherlands.
 
-### The project is implemented by team 6 members: 
+### The project is implemented by 6 team members: 
 - Aimee Wu 
 - Duru Kurgun
 - Işıl Kanyılmaz
