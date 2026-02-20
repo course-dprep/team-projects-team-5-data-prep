@@ -26,7 +26,6 @@ For business owners, the findings can inform location strategy and competitive p
   
 
 - How many observations are there in the final dataset? 
-- Include a table of variable description/operstionalisation. 
 
 ## Method
 
